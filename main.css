@@ -1,17 +1,18 @@
 body {
-    
     font-size: 35px;
     color: #ff09de;
     margin: 0; /* 기본 여백 제거 */
     height: 100vh; /* 전체 화면 높이 */
-    background-image: url('doyoni.jpeg'); /* 또는 'doyoni.jpg' */
-    background-size: cover; /* 이미지가 화면을 가득 채우도록 설정 */
+    background-image: url('doyoni.jpeg'); /* 이미지 경로 */
+    background-size: contain; /* 이미지가 전체 보이도록 설정 */
     background-repeat: no-repeat; /* 이미지 반복 방지 */
+    background-position: center; /* 이미지 중앙 정렬 */
     display: flex; /* Flexbox 사용 */
     justify-content: center; /* 수평 중앙 정렬 */
-    align-items: flex-start; /* 수직 중앙 정렬 */
-    margin-top: 20px;
+    align-items: flex-start; /* 수직 상단 정렬 */
+    margin-top: 20px; /* 상단 여백 추가 */
 }
+
 
 .hehe {
     font-size: 20px;
