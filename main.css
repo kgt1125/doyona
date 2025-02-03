@@ -4,7 +4,7 @@ body {
     color: #ff09de;
     margin: 0; /* 기본 여백 제거 */
     height: 100vh; /* 전체 화면 높이 */
-    background-image: url('\doyoni.jpeg'); /* 또는 'doyoni.jpg' */
+    background-image: url('doyoni.jpeg'); /* 또는 'doyoni.jpg' */
     background-size: cover; /* 이미지가 화면을 가득 채우도록 설정 */
     display: flex; /* Flexbox 사용 */
     justify-content: center; /* 수평 중앙 정렬 */
